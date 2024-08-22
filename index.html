@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Decodificador de Textos</h1>
+    </header>
+    <main class="conteudo-principal">
+        <section class="entrada">
+            <textarea id="textoEntrada" placeholder="Digite o texto aqui..." aria-label="Área de entrada de texto"></textarea>
+            <label class="atencao" for="textoEntrada">Apenas letras minúsculas, sem caracteres especiais</label>
+            <button id="botaoCriptografar" aria-label="Botão para criptografar o texto">Criptografar</button>
+            <button id="botaoDescriptografar" aria-label="Botão para descriptografar o texto">Descriptografar</button>
+        </section>
+        <section class="saida">
+            <textarea id="textoSaida" readonly aria-label="Área de saída de texto criptografado ou descriptografado"></textarea>
+            <button id="botaoCopiar" aria-label="Botão para copiar o texto da área de saída">Copiar</button>
+        </section>
+        <div id="image-container">
+            <img src="assets/sherlock-holmes.jpeg" alt="Secreto">
+        </div>
+    </main>
+    <footer class="sobre_mim">
+        <h3>&copy; Emerson Oliveira - 2024</h3>
+        <div>
+            <a href="https://github.com/Emerson-Oliver" target="_blank"><img class="logos" src="./assets/github.png" alt="logogithub"></a>
+            <a href="https://www.linkedin.com/in/emerson-matos-oliveira/" target="_blank"><img class="logos" src="./assets/linkedin.png" alt="logolinkedin"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
