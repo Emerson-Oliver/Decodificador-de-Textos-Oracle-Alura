@@ -42,4 +42,5 @@ Este é um projeto simples de um decodificador de textos, que permite criptograf
 
 ## Teste o Projeto
 
-- https://decodificador-de-textos-oracle-alura.vercel.app/
+[Link para testar o projeto](https://decodificador-de-textos-oracle-alura.vercel.app/) (Segure `Ctrl`/`Cmd` e clique para abrir em uma nova aba)
+
